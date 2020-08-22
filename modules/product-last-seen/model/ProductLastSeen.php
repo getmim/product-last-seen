@@ -12,7 +12,12 @@ class ProductLastSeen extends \Mim\Model
 
     protected static $table = 'product_last_seen';
 
-    protected static $chains = [];
+    protected static $chains = [
+        'product' => [
+            'model' => 'Product\\Model\\Product',
+            'field' => 'id'
+        ]
+    ];
 
     protected static $q = [];
 }

@@ -2,7 +2,7 @@
 
 return [
     '__name' => 'product-last-seen',
-    '__version' => '0.0.1',
+    '__version' => '0.0.2',
     '__git' => 'git@github.com:getmim/product-last-seen.git',
     '__license' => 'MIT',
     '__author' => [
